@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa sin nombre</name>
+    <description/>
+    <Style id="poly-000000-1200-77-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>zonas</name>
+      <Placemark>
+        <name>mi  zona</name>
+        <description>prueba de mapa</description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -58.5476017,-34.5606076,0
+                -58.5445654,-34.5630815,0
+                -58.5429541,-34.5631257,0
+                -58.5418792,-34.5639651,0
+                -58.5417499,-34.5639386,0
+                -58.5416958,-34.563647,0
+                -58.5416626,-34.5632141,0
+                -58.5415462,-34.5627061,0
+                -58.5412448,-34.5624322,0
+                -58.5401559,-34.5615906,0
+                -58.539075,-34.5624896,0
+                -58.5382918,-34.561849,0
+                -58.5393828,-34.5609466,0
+                -58.5394429,-34.5609881,0
+                -58.5394975,-34.5609544,0
+                -58.54198,-34.5589818,0
+                -58.544072,-34.5573207,0
+                -58.5451717,-34.5564106,0
+                -58.5455284,-34.5562029,0
+                -58.5460138,-34.5559953,0
+                -58.5499191,-34.5588404,0
+                -58.5476017,-34.5606076,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
